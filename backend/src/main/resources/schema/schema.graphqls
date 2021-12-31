@@ -1,0 +1,15 @@
+type Query {
+    tags: [Tag]
+}
+type Mutation {
+    addTag(input: TagInput): Tag
+}
+
+type Tag {
+    _id: ID,
+    name: String
+}
+
+input TagInput {
+    name: String
+}

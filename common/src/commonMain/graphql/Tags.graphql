@@ -1,0 +1,11 @@
+query GetTagsQuery {
+    tags {
+        _id, name
+    }
+}
+
+mutation AddTagMutation($input:TagInput) {
+    addTag(input: $input) {
+        _id, name
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Electric Brain",
+  "schemaPath": "./schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Local Dev Endpoint": {
+        "url": "http://localhost:8080/graphql",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": true
+      }
+    }
+  }
+}
